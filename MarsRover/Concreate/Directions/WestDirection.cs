@@ -26,7 +26,7 @@ namespace MarsRover.Concreate.Directions
 
         public Coordinate MoveForward()
         {
-            if (Mars.Coordinate.XCoordinate == 0)
+            if (this.RoverPosition.Coordinate.XCoordinate == 0)
             {
                 throw new RoverException(ExceptionConst.RoverExceptionMessage);
             }
